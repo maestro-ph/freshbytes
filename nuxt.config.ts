@@ -14,7 +14,7 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
-      title: "Shofi Grocery - eCommerce Vue Nuxt 3 Template",
+      title: "FreshBytes",
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
       script: [

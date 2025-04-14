@@ -15,5 +15,5 @@
 </template>
 
 <script setup lang="ts">
-useSeoMeta({ title: "Blog Page" });
+useSeoMeta({ title: "Nutrition Tips Page" });
 </script>
