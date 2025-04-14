@@ -22,7 +22,7 @@
                       </div>
                       <div class="logo">
                         <nuxt-link href="/">
-                          <img src="/images/logo/logo-white.svg" alt="logo">
+                          <img src="/images/logo/FreshBytes_NewWhiteLogo.svg" alt="logo">
                         </nuxt-link>
                       </div>
                   </div>
