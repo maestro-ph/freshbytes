@@ -12,7 +12,7 @@
                 <div class="tp-footer-widget-content">
                   <div class="tp-footer-logo">
                     <nuxt-link href="/">
-                      <img src="/images/logo/Logo.svg" alt="logo" />
+                      <img src="/images/logo/FreshBytes.svg" alt="logo" />
                     </nuxt-link>
                   </div>
                   <p class="tp-footer-desc">
