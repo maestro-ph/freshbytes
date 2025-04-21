@@ -1,5 +1,11 @@
 <template>
-  <a v-for="item in social_data" :key="item.id" :href="item.link" target="_blank" class="me-1">
+  <a
+    v-for="item in social_data"
+    :key="item.id"
+    :href="item.link"
+    target="_blank"
+    class="me-1"
+  >
     <i :class="item.icon"></i>
   </a>
 </template>
@@ -13,7 +19,7 @@ const social_data: {
 }[] = [
   {
     id: 1,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/FreshBytes.UCC",
     icon: "fa-brands fa-facebook-f",
     title: "Facebook",
   },

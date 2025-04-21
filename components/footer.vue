@@ -62,7 +62,7 @@
                 <div class="tp-footer-widget-content">
                   <div class="tp-footer-talk mb-20">
                     <span>Got Questions? Call us</span>
-                    <h4><a href="tel:670-413-90-762">+670 413 90 762</a></h4>
+                    <h4><a href="tel:670-413-90-762">+63 976 016 7821</a></h4>
                   </div>
                   <div class="tp-footer-contact">
                     <div
@@ -92,7 +92,7 @@
                       <div class="tp-footer-contact-content">
                         <p>
                           <a
-                            href="https://www.google.com/maps/place/Sleepy+Hollow+Rd,+Gouverneur,+NY+13642,+USA/@44.3304966,-75.4552367,17z/data=!3m1!4b1!4m6!3m5!1s0x4cccddac8972c5eb:0x56286024afff537a!8m2!3d44.3304928!4d-75.453048!16s%2Fg%2F1tdsjdj4"
+                            href="https://www.google.com/maps/place/USM+R%26D+Display+Center/@7.1121581,124.8294899,18.61z/data=!4m15!1m8!3m7!1s0x32f88d6d5dc14d77:0xf585e053e9bc8549!2sBai+Matabay+Plang+Ave,+Kabacan,+Cotabato!3b1!8m2!3d7.1091323!4d124.8296941!16s%2Fg%2F11bykzh0bq!3m5!1s0x32f88df874425659:0x2a9f60e09bd61645!8m2!3d7.1124535!4d124.8302879!16s%2Fg%2F11mb3v14q8?entry=ttu&g_ep=EgoyMDI1MDQxNi4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D"
                             target="_blank"
                             >Bai Matabay Plang Avenue <br />
                             Kabacan, Cotabato 9407</a
@@ -114,8 +114,8 @@
               <div class="col-md-6">
                 <div class="tp-footer-copyright">
                   <p>
-                    © {{ new Date().getFullYear() }} All Rights Reserved | Vue
-                    nuxt Template by <nuxt-link href="/">Themepure</nuxt-link>.
+                    © {{ new Date().getFullYear() }} All Rights Reserved |
+                    FreshBytes <nuxt-link href="/">Themepure</nuxt-link>.
                   </p>
                 </div>
               </div>
