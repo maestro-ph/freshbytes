@@ -5,7 +5,7 @@
         <div
           class="tp-slider-item-5 scene tp-slider-height-5 swiper-slide d-flex align-items-center"
           data-bg-color="#F3F3F3"
-          style="background-color: #f3f3f3"
+          style="background-color: rgba(0, 0, 0, 0)"
         >
           <div class="tp-slider-shape-5">
             <div class="tp-slider-shape-5-1">
@@ -45,12 +45,15 @@
             <div class="row align-items-center">
               <div class="col-xxl-7 col-xl-7 col-lg-6">
                 <div class="tp-slider-content-5 p-relative z-index-1">
-                  <div class="tp-slider-subtitle-img">
+                  <!-- <div class="tp-slider-subtitle-img">
                     <img src="/images/slider/5/subtitle.png" alt="" />
-                  </div>
-                  <h3 class="tp-slider-title-5">
+                  </div> -->
+                  <h3 class="heading-hero text-uppercase">
                     Where Freshness <br />Is Guaranteed
                   </h3>
+                  <p class="h3 text-white my-4">
+                    Bring fresh, local produce to your doorstep!
+                  </p>
 
                   <div class="tp-slider-btn-5">
                     <nuxt-link href="/shop" class="tp-btn-green"
@@ -73,10 +76,11 @@
                     <img
                       data-depth="0.2"
                       class="layer"
-                      src="/images/slider/5/slider-1.png"
+                      src="/images/slider/5/hero-pics.svg"
                       alt=""
+                      style="width: 1300px;height: auto;position: absolute;top: -500px;"
                     />
-                    <span class="tp-slider-thumb-5-gradient"></span>
+                    <!-- <span class="tp-slider-thumb-5-gradient"></span> -->
                   </div>
                 </div>
               </div>

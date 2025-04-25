@@ -1,0 +1,22 @@
+@use '../../utils' as *;
+
+.heading-hero{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 0.98;
+    color: var(--tp-common-white);
+    margin-bottom: 0px;
+    text-align: left;
+    @media #{$xxl}{
+        font-size: 40px;
+    }
+    @media #{$lg}{
+        font-size: 35px;
+    }
+    @media #{$md}{
+        font-size: 30px;
+    }
+    @media #{$sm, $xs}{
+        font-size: 25px;
+    }
+}

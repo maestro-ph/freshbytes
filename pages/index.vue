@@ -1,5 +1,7 @@
 <template>
-  <main>
+  <main style="background: linear-gradient(#093216 0%, #16DCC7 150%);">
+
+    <img src="images/slider/5/shape/eclipse.png" alt="" style="position: absolute; top: -90px;">
     <!-- hero area start -->
     <hero-area></hero-area>
     <!-- hero area end -->

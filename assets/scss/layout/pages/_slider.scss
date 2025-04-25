@@ -11,7 +11,7 @@
         font-weight: 500;
         font-size: 100px;
         line-height: .96;
-        color: var(--tp-common-black);
+        color: var(--tp-common-white);
         margin-bottom: 47px;
 
         @media #{$x3l}{
@@ -57,7 +57,7 @@
         }
     }
     &-height-5{
-        min-height: 700px;
+        min-height: 550px;
 
         @media #{$md}{
             min-height: 500px;

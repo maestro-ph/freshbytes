@@ -5,10 +5,11 @@
       :class="`tp-header-area p-relative tp-header-sticky tp-header-height ${
         isSticky ? 'header-sticky' : ''
       }`"
+      style="z-index: 100;"
     >
-      <div class="tp-header-5 pl-25 pr-25" style="background-color: #678e61">
+      <div class="tp-header-5 pl-25 pr-25" style="background-color: #093216">
         <div class="container-fluid">
-          <div class="row align-items-center">
+          <div class="row align-items-center"> 
             <div class="col-xxl-2 col-xl-3 col-6">
               <div class="tp-header-left-5 d-flex align-items-center">
                 <div class="tp-header-hamburger-5 mr-15 d-none d-lg-block">
