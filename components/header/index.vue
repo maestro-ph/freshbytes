@@ -92,12 +92,11 @@
             </div>
           </div>
       </div>
-
     </div>
   </header>
 
   <!-- cart offcanvas start -->
-  <offcanvas-cart-sidebar/>
+  <offcanvas-cart-sidebar />
   <!-- cart offcanvas end -->
 
   <!-- search start -->
@@ -110,19 +109,18 @@
 </template>
 
 <script setup lang="ts">
-import { useCartStore } from '@/pinia/useCartStore';
-import { useWishlistStore } from '@/pinia/useWishlistStore';
-import { useUtilityStore} from '@/pinia/useUtilityStore';
+import { useCartStore } from "@/pinia/useCartStore";
+import { useWishlistStore } from "@/pinia/useWishlistStore";
+import { useUtilityStore } from "@/pinia/useUtilityStore";
 
-const {isSticky} = useSticky();
+const { isSticky } = useSticky();
 const router = useRouter();
 const route = useRoute();
 
-
 let isActive = ref<boolean>(false);
-let searchText = ref<string>('');
+let searchText = ref<string>("");
 // handle active
-const handleActive = () => isActive.value = !isActive.value;
+const handleActive = () => (isActive.value = !isActive.value);
 
 const cartStore = useCartStore();
 const wishlistStore = useWishlistStore();
@@ -130,15 +128,17 @@ const utilityStore = useUtilityStore();
 
 // handle Submit
 const handleSubmit = () => {
-  if(searchText.value){
-    router.push(`/search?searchText=${searchText.value}`)
+  if (searchText.value) {
+    router.push(`/search?searchText=${searchText.value}`);
+  } else {
+    router.push(`/search`);
   }
-  else{
-    router.push(`/search`)
-  }
-}
+};
 
-watch(() => route.path, () => {
-  isActive.value = false;
-})
+watch(
+  () => route.path,
+  () => {
+    isActive.value = false;
+  }
+);
 </script>
