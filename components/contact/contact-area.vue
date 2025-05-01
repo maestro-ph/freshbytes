@@ -80,7 +80,7 @@
                 <div class="tp-contact-info-content">
                   <div class="tp-contact-social-wrapper mt-5">
                     <h4 class="tp-contact-social-title">
-                      Find on social media
+                      Find us on social media
                     </h4>
 
                     <div class="tp-contact-social-icon">

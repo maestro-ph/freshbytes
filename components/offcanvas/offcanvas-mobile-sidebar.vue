@@ -19,7 +19,7 @@
         >
           <div class="offcanvas__logo logo">
             <nuxt-link href="/">
-              <img src="/images/logo/logo.svg" alt="logo" />
+              <img src="/images/logo/FreshBytes.svg" alt="logo" />
             </nuxt-link>
           </div>
         </div>
@@ -27,9 +27,9 @@
         <category-mobile-categories />
         <!-- mobile category end -->
         <div class="tp-main-menu-mobile fix d-lg-none mb-40">
-        <!-- mobile menus start -->
-        <header-mobile-menus></header-mobile-menus>
-        <!-- mobile menus end -->
+          <!-- mobile menus start -->
+          <header-mobile-menus></header-mobile-menus>
+          <!-- mobile menus end -->
         </div>
 
         <div class="offcanvas__contact align-items-center d-none">
