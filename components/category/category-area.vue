@@ -8,7 +8,7 @@
               Shop by Category
               <svg-shape-line></svg-shape-line>
             </span>
-            <h3 class="tp-section-title-5">Popular on FreshBytes.</h3>
+            <h3 class="tp-section-title-5">Popular on FreshBytes</h3>
           </div>
         </div>
       </div>
