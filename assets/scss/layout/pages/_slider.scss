@@ -11,8 +11,8 @@
         font-weight: 500;
         font-size: 100px;
         line-height: .96;
-        color: var(--tp-common-black);
-        margin-bottom: 47px;
+        color: var(--tp-common-white);
+        margin-bottom: 20px;
 
         @media #{$x3l}{
            font-size: 93px;
@@ -21,7 +21,7 @@
            font-size: 75px;
         }
         @media #{$lg}{
-           font-size: 65px;
+           font-size: 68px;
         }
         @media #{$md}{
            font-size: 60px;
@@ -31,6 +31,32 @@
          }
         
     }
+
+    &-paragraph-5{
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 1.3;
+        color: var(--tp-common-white);
+        margin-bottom: 15px;
+
+        @media #{$x3l}{
+           font-size: 35px;
+        }
+        @media #{$xxl}{
+           font-size: 30px;
+        }
+        @media #{$lg}{
+           font-size: 32px;
+        }
+        @media #{$md}{
+           font-size: 30px;
+        }
+        @media #{$xs, $sm}{
+            font-size: 20px;
+         }
+        
+    }
+
     &-content-5{
         @media #{$x4l}{
             margin-left: 50px;

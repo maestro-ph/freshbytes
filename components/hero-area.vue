@@ -5,7 +5,7 @@
         <div
           class="tp-slider-item-5 scene tp-slider-height-5 swiper-slide d-flex align-items-center"
           data-bg-color="#F3F3F3"
-          style="background-color: #f3f3f3"
+          style="background-color: #093216"
         >
           <div class="tp-slider-shape-5">
             <div class="tp-slider-shape-5-1">
@@ -46,11 +46,14 @@
               <div class="col-xxl-7 col-xl-7 col-lg-6">
                 <div class="tp-slider-content-5 p-relative z-index-1">
                   <div class="tp-slider-subtitle-img">
-                    <img src="/images/slider/5/subtitle.png" alt="" />
+                    <img src="#" alt="" />
                   </div>
                   <h3 class="tp-slider-title-5">
                     Where Freshness <br />Is Guaranteed
                   </h3>
+                  <p class="tp-slider-paragraph-5">
+                    Bring fresh, local produce to <br /> your doorstep!
+                  </p>
 
                   <div class="tp-slider-btn-5">
                     <nuxt-link href="/shop" class="tp-btn-green"

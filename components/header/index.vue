@@ -1,7 +1,7 @@
 <template>
   <header>
     <div id="header-sticky" :class="`tp-header-area p-relative tp-header-sticky tp-header-height ${isSticky ? 'header-sticky' : ''}`">
-      <div class="tp-header-5 pl-25 pr-25" style="background-color: #678E61">
+      <div class="tp-header-5 pl-25 pr-25" style="background-color: #093216">
           <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-xxl-2 col-xl-3 col-6">
